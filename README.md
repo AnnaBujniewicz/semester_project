@@ -17,14 +17,12 @@ to do:
 - comments
 
 
-**2. Getting financial data and exploratory analysis (stock_scrape+unsupervised_for_sds)**
+**2. Getting financial data and exploratory analysis (NASDAQ_100_exploration_UML)**
 
 *In this notebook we're downloading yf data and conducting exploratory analysis based on which a set of companies to be used for SML is chosen. At the end of the file a dataset with all the needed data for selected companies is exported.*
 
 
 to do: 
-
-- comments
 
 - plot sizes
 
@@ -39,16 +37,10 @@ to do:
 *This code was run in visual studio code, because scraping of the smallest dataset took around 20h. It actually is still being run (since the 23rd december) on two computers for two datasets - sadly, the number of tweets for those companies is very high, so we're not 100% sure if it will finish on time. In hindsight, we probably should have chosen companies that aren't talked about as much.*
 
 
-**5. Supervised ml without text data (uml+deeplearning)**
+**5. Supervised ml without text data (improved_deep_learning_of_uml+deeplearning)**
 
 *This notebook uses the data acquired in notebook 2 to do random forest regression, linear regression and a simple neural network for stock predictions*
     
-    
-to do: 
-
-- change the lag period to 1
-
-- comments
 
 
 **6. Supervised ml with text data (ml models for stock data and titles)**
