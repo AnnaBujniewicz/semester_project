@@ -50,12 +50,6 @@ to do:
 
 to do: 
 
-- fix the merge (shouldn't be on inner)
-
-- tune the models
-
-- finish the last model
-
 - comments
 
 
