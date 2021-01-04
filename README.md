@@ -8,13 +8,6 @@
 *This file is disconnected from the rest of the pipeline, it's just the analysis of our search string for the projects literature review*
 
 
-to do: 
-
-- clen up the networks
-
-- comments
-
-
 **2. Getting financial data and exploratory analysis (NASDAQ_100_exploration_UML)**
 
 *In this notebook we're downloading yf data and conducting exploratory analysis based on which a set of companies to be used for SML is chosen. At the end of the file a dataset with all the needed data for selected companies is exported.*
