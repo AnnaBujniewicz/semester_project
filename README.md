@@ -35,18 +35,12 @@ to do:
 *This notebook uses the data acquired in notebook 2 to do random forest regression, linear regression and a simple neural network for stock predictions*
     
 
-
 **6. Supervised ml with text data (ml models for stock data and titles)**
 
 *The notebook using stock data and the scraped headlines for stock prediction*
 
 
-to do: 
-
-- comments
-
-
-**7. Backtesting (no file shared yet - we're working on it)**
+**7. Backtesting (no file shared yet - the first version is in the previous file - supervised ml with text data)**
 
 
 to do: 
