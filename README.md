@@ -3,42 +3,39 @@
 
 ## The intended order of viewing files:
 
-**1. Bibliometric analysis (bibliometrics_record_collections_final)**
+**1. Bibliometric analysis**
 
 *This file is disconnected from the rest of the pipeline, it's just the analysis of our search string for the projects literature review*
 
 
-**2. Getting financial data and exploratory analysis (NASDAQ_100_exploration_UML)**
+**2. Exploratory analysis**
 
 *In this notebook we're downloading yf data and conducting exploratory analysis based on which a set of companies to be used for SML is chosen. At the end of the file a dataset with all the needed data for selected companies is exported.*
 
 
-**3. Twitter scraper (twitter_scraper)**
+**3. Twitter scraper**
 
 *This code was run in the visual studio code console to scrape the tweets for the four companies chosen in the previous notebook*
 
 
-**4. Title scraper (title_scraper)**
+**4. Title scraper**
 
 *This code was run in visual studio code, because scraping of the smallest dataset took around 20h. It actually is still being run (since the 23rd december) on two computers for two datasets - sadly, the number of tweets for those companies is very high, so we're not 100% sure if it will finish on time. In hindsight, we probably should have chosen companies that aren't talked about as much.*
 
 
-**5. Supervised ml without text data (improved_deep_learning_of_uml+deeplearning)**
+**5. Supervised ml without text data**
 
 *This notebook uses the data acquired in notebook 2 to do random forest regression, linear regression and a simple neural network for stock predictions*
     
 
-**6. Supervised ml with text data (ml models for stock data and titles)**
+**6. Supervised ml with text data**
 
 *The notebook using stock data and the scraped headlines for stock prediction*
 
 
-**7. Backtesting (no file shared yet - the first version is in the previous file - supervised ml with text data)**
+**7. Backtesting**
 
-
-to do: 
-
-- everything
+*The notebook providing final financial insight into the models*
 
 
 
@@ -53,3 +50,7 @@ to do:
 **- sentiment_data.csv** - dataset for training a sentiment model. Source: https://www.kaggle.com/ankurzing/sentiment-analysis-for-financial-news
 
 **- yf_chosen_comp.csv** - the dataset created in the notebook from point 2. Contains daily closing information for the chosen companies.
+
+**- bibliometric_data.csv** - the scopus dataset for our literature review search string
+
+**- alxn_pred.csv** - a dataset containing all the predictions for alexion used in backtesting file
