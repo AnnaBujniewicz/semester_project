@@ -18,7 +18,7 @@ def get_titles(url):
 
 
 # here any of the csv files can be inserted
-csv_file = 'tsla_data.csv'
+csv_file = 'amzn_data.csv'
 
 # importing the file in a bit of a weird way
 # the csv file is space delimeted, but spaces are also present within the tweets, so pandas can't be used
