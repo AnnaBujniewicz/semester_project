@@ -1,6 +1,9 @@
 # semester_project
 
 
+We recommend opening the .ipynb files in colab, as it will allow for viewing interactive graphs.
+
+
 ## The intended order of viewing files:
 
 **1. Bibliometric analysis**
@@ -10,7 +13,7 @@
 
 **2. Exploratory analysis**
 
-*In this notebook we're downloading yf data and conducting exploratory analysis based on which a set of companies to be used for SML is chosen. At the end of the file a dataset with all the needed data for selected companies is exported.*
+*In this notebook we're downloading stock data and conducting exploratory analysis based on which a set of companies to be used for SML is chosen. At the end of the file a dataset with all the needed data for selected companies is exported.*
 
 
 **3. Twitter scraper**
@@ -20,7 +23,7 @@
 
 **4. Title scraper**
 
-*This code was run in visual studio code, because scraping of the smallest dataset took around 20h. It actually is still being run (since the 23rd december) on two computers for two datasets - sadly, the number of tweets for those companies is very high, so we're not 100% sure if it will finish on time. In hindsight, we probably should have chosen companies that aren't talked about as much.*
+*This code was run in visual studio code, because scraping was too time consuming to be run in colab (taking multiple days per dataset).*
 
 
 **5. Supervised ml without text data**
@@ -30,7 +33,7 @@
 
 **6. Supervised ml with text data**
 
-*The notebook using stock data and the scraped headlines for stock prediction*
+*The notebook using stock data and the scraped headlines for stock prediction to run additiional machine learning models*
 
 
 **7. Backtesting**
