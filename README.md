@@ -46,7 +46,7 @@ We recommend opening the .ipynb files in colab, as it will allow for viewing int
 
 **- ticker_data.zip** - the databases with the tweets about the three chosen companies (out of four - the tesla one was too big even after zipping, we will figure out a way to provide it if it will be used in code)
 
-**- proc_ticker_data.csv** - the databases containing headlines of news articles for the chosen companies (so far only alexion)
+**- proc_ticker_data.csv** - the databases containing headlines of news articles for the chosen companies
 
 **- raw_partner_headlines.csv.zip** - a very large dataset containing many financial news titles, we're using it for training the embedding layer (to avoid fitting it specifically to our data). Source: https://www.kaggle.com/miguelaenlle/massive-stock-news-analysis-db-for-nlpbacktests
 
