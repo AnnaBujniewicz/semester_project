@@ -56,4 +56,4 @@ We recommend opening the .ipynb files in colab, as it will allow for viewing int
 
 **- bibliometric_data.csv** - the scopus dataset for our literature review search string
 
-**- alxn_pred.csv** - a dataset containing all the predictions for alexion used in backtesting file
+**- ticker_pred.csv** - a dataset containing all the predictions for the companies used in backtesting file
